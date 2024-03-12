@@ -129,7 +129,7 @@ function App() {
                 },
               }}
             >
-              DOGS ON
+              DOGS
             </Button>
           </Stack>
 
