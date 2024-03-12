@@ -29,7 +29,7 @@ import {
 
 function App() {
   const [value, setValue] = React.useState(0);
-  // State for Menu
+  
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
 
@@ -92,7 +92,7 @@ function App() {
               sx={{
                 backgroundColor: "#F48668",
                 ":hover": {
-                  backgroundColor: "#c55d41", // A darker shade of orange for hover
+                  backgroundColor: "#c55d41", 
                 },
               }}
             >
@@ -103,7 +103,7 @@ function App() {
               sx={{
                 backgroundColor: "#F48668",
                 ":hover": {
-                  backgroundColor: "#c55d41", // Adjusted for consistency
+                  backgroundColor: "#c55d41", 
                 },
               }}
             >
@@ -114,7 +114,7 @@ function App() {
               sx={{
                 backgroundColor: "#F48668",
                 ":hover": {
-                  backgroundColor: "#c55d41", // Adjusted for consistency
+                  backgroundColor: "#c55d41", 
                 },
               }}
             >
@@ -125,7 +125,7 @@ function App() {
               sx={{
                 backgroundColor: "#F48668",
                 ":hover": {
-                  backgroundColor: "#c55d41", // Adjusted for consistency
+                  backgroundColor: "#c55d41", 
                 },
               }}
             >
@@ -216,8 +216,8 @@ function App() {
             label="Run"
             icon={<DirectionsRunIcon />}
             sx={{
-              "&:hover": { color: "#F48668" }, // Change icon and label color on hover
-              "&.Mui-selected": { color: "#F48668" }, // Keep the color when selected
+              "&:hover": { color: "#F48668" }, 
+              "&.Mui-selected": { color: "#F48668" }, 
             }}
           />
           <BottomNavigationAction
