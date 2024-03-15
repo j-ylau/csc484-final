@@ -19,7 +19,7 @@ const Route = () => {
   const [loading, setLoading] = useState(false);
   const [showResult, setShowResult] = useState(false);
 
-  // Placeholder for the calculated route (normally you would calculate or fetch this)
+  
   const routeDetails = {
     from: "Central Park",
     to: "Times Square",
@@ -27,10 +27,10 @@ const Route = () => {
     estimatedTime: "25 mins",
     bestFor: ["Safety", "Environment", "Enjoyment"],
     weather: "Sunny, 75°F",
-    // Coordinates for Central Park to Times Square for the demonstration
+    
     path: [
-      [40.785091, -73.968285], // Central Park
-      [40.758896, -73.98513], // Times Square
+      [40.785091, -73.968285], 
+      [40.758896, -73.98513], 
     ],
   };
 
@@ -38,11 +38,11 @@ const Route = () => {
     setLoading(true);
     setShowResult(false);
 
-    // Simulate an API call with setTimeout
+    
     setTimeout(() => {
       setLoading(false);
       setShowResult(true);
-    }, 3000); // 3 seconds delay
+    }, 3000); 
   };
 
   return (
@@ -114,10 +114,10 @@ const Route = () => {
             style={{ height: "400px", width: "100%" }}
           >
             <TileLayer
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https:
+              attribution='&copy; <a href="https:
             />
-            <Marker position={routeDetails.path[0]} />
+            <Marker position={routeDetailps.path[0]} />
             <Marker position={routeDetails.path[1]} />
             <Polyline
               pathOptions={{ color: "blue" }}

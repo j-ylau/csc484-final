@@ -52,7 +52,7 @@ function App() {
       case 1:
         return <Route />;
       case 2:
-        // Assuming you want to leave a placeholder for the Statistics component
+        
         return <div>Statistics</div>;
       case 3:
         return <Profile />;
@@ -70,7 +70,7 @@ function App() {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" color="inherit">
-              PrimeRoute 2.0
+              PrimeRoute
             </Typography>
             {/* Menu Component */}
             <Menu

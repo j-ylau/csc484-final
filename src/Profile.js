@@ -22,19 +22,19 @@ const favoriteRoutes = [
   { id: 3, name: "Cerro San Luis Trail", difficulty: "Easy" },
 ];
 
-// Styling for the buttons to change icon color and hover effect
+
 const ColorButton = styled(Button)(({ theme }) => ({
-  color: "#F48668", // Changes the text and icon color
+  color: "#F48668", 
   "&:hover": {
     backgroundColor: "#F48668",
-    color: "#fff", // Changes text color on hover
+    color: "#fff", 
     "& .MuiSvgIcon-root": {
-      // Targets the icon within the button
-      color: "#fff", // Changes icon color on hover
+      
+      color: "#fff", 
     },
   },
   "& .MuiSvgIcon-root": {
-    // Ensures icons within buttons have the correct color outside of hover state
+    
     color: "#F48668",
   },
 }));
@@ -106,7 +106,7 @@ const Profile = () => {
               color: "white",
               backgroundColor: "#F48668",
               "&:hover": { backgroundColor: "#dc7763", color: "white" },
-            }} // Darker shade for hover
+            }} 
             startIcon={<SaveIcon sx={{ color: "white" }} />}
             onClick={handleToggleEdit}
           >
